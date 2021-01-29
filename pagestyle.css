@@ -1,0 +1,41 @@
+.outer {
+    width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-right {
+  flex: 50%;
+  background: #6200B3;
+  height: 800px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 2.5%;
+  padding-top: 1%;
+}
+
+.column-left {
+  flex: 50%;
+  background: #B2ABF2;
+  height: 800px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 2.5%;
+  padding-top: 1%;
+}
+
+.heading {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  z-index: 1;
+  font-size: 200px;
+  margin-left: 565px;
+  margin-top: 20%;
+  position: absolute;
+
+}
